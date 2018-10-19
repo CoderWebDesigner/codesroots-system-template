@@ -1,0 +1,76 @@
+/* Start Support Ticket Section */
+
+.support-tickets {
+    margin: 0 10px;
+    .addNewTicket {
+        margin-top: 18px;
+        background: #7d346f;
+        color: $lightFontColor;
+        transition: background .5s ease-in-out;
+        margin-left: 30px;
+        width: 200px;
+        &:hover {
+            background: #57244d
+        }
+    }
+}
+
+.table-responsive {
+    margin-top: 30px;
+    thead {
+        background: #4A4A4A;
+        color: #fff;
+        font-weight: normal
+    }
+    tbody {
+        background: #ddd;
+        tr {
+            background: #fff;
+            border: 10px solid #efefef;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.pending,
+.ongoing,
+.completed {
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    min-width: 110px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.pending {
+    background: #e64e63
+}
+
+.ongoing {
+    background: #f0ad3a
+}
+
+.completed {
+    background: #7bce29;
+    a{
+        color: #fff
+    }
+}
+
+th,
+td {
+    text-align: center
+}
+td{
+    vertical-align: middle !important;
+}
+.custom-img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto
+}
+/* End Support Ticket Section */
