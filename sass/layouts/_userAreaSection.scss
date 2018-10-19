@@ -1,0 +1,54 @@
+/* Start User Area Section */
+
+.user-area {
+    padding: 3% 2%;
+    .user-area-title {
+        margin-bottom: 30px;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .user-area-list {
+        .tab-step {
+            background: #fff;
+            padding: 15px 0px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px auto;
+            min-height: 95px;
+            width: 250px;
+            transition: background .4s ease-in-out;
+            img {
+                margin-top: 25px;
+                width: 50px;
+                height: 50px;
+            }
+            p {
+                display: block;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                margin: 2px auto;
+                border: 1px solid $darkFontColor;
+                border-radius: 50%;
+                font-size: 17px;
+                font-weight: bold;
+                color: #bb4999;
+                background: #fff;
+            }
+            &:hover{
+                background:#fafafa
+            }
+        }
+    }
+}
+.active{
+    p{
+        background : #bb4999 !important;
+        color:#fff !important;
+        transition: background .4s ease-in-out,color .4s ease-in-out
+    }
+}
+
+/* End User Area Section */
